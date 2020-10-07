@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.app{
+  width:80%;
+  margin:10%;
+}
+.search-box{
+  width:100%;
+  height:3rem;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: larger;
+  margin: 20px 0px;
+}
+
+.post-item{
+  box-shadow: 0px 0px 2px 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin:10px 0px;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.post-auther{
+  color:grey;
+  font-size: small;
+  margin: 5px;
+}
+.post-time{
+  margin:5px;
+  font-size: small;
+  color: grey;
+}
+.post-content{
+  margin-bottom:5px;
+}
+.post-description{
+  color:rgb(59, 59, 59);
+  font-size: small;
+}
+.tag-heading{
+  margin-bottom: 10px;
+}
+.tag-name{
+  margin:5px;
+  cursor: pointer;
+}
+
+.post-details-container{
+  width:80%;
+  margin:5% 10%;
+}
+.post-details{
+  padding: 10px;
+}
+.response-list{
+  list-style: none;
+  margin-bottom: 10px;
+  color:rgb(41, 41, 41);
+}
