@@ -1,4 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `setup`
+first clone the code and go to API folder and install all dependencies using "npm install" command<br/>
+then go to source directory and again install all the react dependendies using "npm install" command
+and run the code using "npm start"
 
 ## Available Scripts
 
